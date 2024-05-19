@@ -4,15 +4,20 @@ This project is part of ELEC365 Fundamentals of Digital Communications course. I
 
 ## Project Description
 
-In this project, we analyze a baseband communication system where two signals, \( s_1(t) \) and \( s_2(t) \), are used to transmit bits "1" and "0" respectively. The expressions for these signals are:
 
-A \sin\left(\frac{2\pi t}{T}\right), & 0 \le t \le \frac{T}{2} \\
-0, & \text{else}
-\end{cases} \]
-\[ s_2(t) = -s_1(t - \frac{T}{2}) \]
+$$
+𝑠_1(t) = \begin{cases} 
+A \cdot \sin\left(\frac{2\pi t}{T}\right), &  0 \leq t \leq \frac{T}{2} \\ 
+0, & \text{else} 
+\end{cases}
+$$
+
+
+$s_2(t) = -s_1(t - \frac{T}{2}) \$
+
 These signals are transmitted over an AWGN channel, and the BER is analyzed for two cases:
-1. \( P(1) = P(0) = \frac{1}{2} \)
-2. \( P(1) = \frac{1}{4}, P(0) = \frac{3}{4} \)
+1. $( P(1) = P(0) = \frac{1}{2} \)$
+2. $\( P(1) = \frac{1}{4}, P(0) = \frac{3}{4} \)$
 
 The project includes:
 - Analytical derivation of the BER expression for different bit probabilities.
