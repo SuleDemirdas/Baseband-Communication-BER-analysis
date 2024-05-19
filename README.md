@@ -31,7 +31,7 @@ The core of the project is implemented in `ber_analysis.m`. The function `ber_cu
 
 1. Clone the repository to your local machine:
     ```sh
-    git clone https://github.com/your_username/Baseband_Communication_BER_Analysis.git
+    git clone https://github.com/SuleDemirdas/Baseband_Communication_BER_Analysis.git
     ```
 
 2. Open MATLAB and navigate to the project directory.
